@@ -81,7 +81,7 @@
                             <div class="box-centered box-width-1 box-custom">
                                 <h2><span>Experience</span><span class="object-decorated object-decorated_inline" style="max-width: 125px;"><span class="heading-5">since 2006</span></span></h2>
                                 <p>Our company has been the leading provider of advertising services to American companies since 2006. We pay attention to every aspect of our work.</p>
-                                <div class="group-md group-middle button-group"><a class="button button-darker" href="contacts.html">get a quote</a>
+                                <div class="group-md group-middle button-group"><a class="button button-darker" href="contacts">get a quote</a>
                                     <p>or</p><a class="button button-primary" href="#">get a brochure</a>
                                 </div>
                             </div>
@@ -299,7 +299,7 @@
                     <!-- Section Header-->
                     <div class="section__header">
                         <h2>Clients</h2>
-                        <div class="section__header-element"><a class="link link-arrow" href="contacts.html"><span>Get a Quote</span></a></div>
+                        <div class="section__header-element"><a class="link link-arrow" href="contacts"><span>Get a Quote</span></a></div>
                     </div>
                 </div>
             </div>
@@ -363,58 +363,58 @@
     </section>
 
     <!-- News-->
-    <section class="section section-md bg-white">
-        <div class="shell shell-wide">
-            <div class="range range-md-center">
-                <div class="cell-lg-11">
-                    <!-- Section Header-->
-                    <div class="section__header">
-                        <h2>News</h2>
-                        <div class="section__header-element"><a class="link link-arrow" href="news.html"><span>Read Our News</span></a></div>
-                    </div>
-                    <div class="range range-center range-30 range-flex">
-                        <div class="cell-sm-10 cell-lg-6">
-                            <article class="post-modern"><a class="post-modern__image-wrap" href="single-post.html"><img class="post-modern__image" src="images/post-4-764x215.jpg" alt="" width="764" height="215"/></a>
-                                <div class="post-modern__main">
-                                    <p class="post-modern__title"><a href="single-post.html">Email Newsletters Hit a Speed Bump with Inaccurate Open Rates</a></p>
-                                    <p class="post-modern__text">As Clover Letter Emails Got Bigger in size, Founders Say, Its Open Rate Collapsed. Email newsletters are just as effective when working with existing customers, as they were from the very start.Also, the part of the problem...</p>
-                                    <ul class="post-modern__meta">
-                                        <li><span class="icon icon-primary mdi mdi-clock"></span><a href="single-post.html">January 6, 2017</a></li>
-                                        <li><span class="icon icon-primary fl-justicons-visible6"></span><span>524</span></li>
-                                        <li> <span class="icon icon-primary mdi mdi-comment-outline"></span><a href="single-post.html">3</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="cell-sm-5 cell-lg-3">
-                            <article class="post-modern"><a class="post-modern__image-wrap" href="single-post.html"><img class="post-modern__image" src="images/post-1-365x215.jpg" alt="" width="365" height="215"/></a>
-                                <div class="post-modern__main">
-                                    <p class="post-modern__title"><a href="single-post.html">How We Measure the Increasing Vlogs' Ad Potential</a></p>
-                                    <p class="post-modern__text">We have recently finished our research, which is closely connected</p>
-                                    <ul class="post-modern__meta">
-                                        <li><span class="icon icon-primary mdi mdi-clock"></span><a href="single-post.html">January 6, 2017</a></li>
-                                        <li><span class="icon icon-primary fl-justicons-visible6"></span><span>524</span></li>
-                                        <li> <span class="icon icon-primary mdi mdi-comment-outline"></span><a href="single-post.html">3</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="cell-sm-5 cell-lg-3">
-                            <article class="post-modern"><a class="post-modern__image-wrap" href="single-post.html"><img class="post-modern__image" src="images/post-2-365x215.jpg" alt="" width="365" height="215"/></a>
-                                <div class="post-modern__main">
-                                    <p class="post-modern__title"><a href="single-post.html">Digital Marketing Metrics That Really Matter Nowadays</a></p>
-                                    <p class="post-modern__text">Marketing is currently in a state of evolution where it is dispensing</p>
-                                    <ul class="post-modern__meta">
-                                        <li><span class="icon icon-primary mdi mdi-clock"></span><a href="single-post.html">January 6, 2017</a></li>
-                                        <li><span class="icon icon-primary fl-justicons-visible6"></span><span>524</span></li>
-                                        <li> <span class="icon icon-primary mdi mdi-comment-outline"></span><a href="single-post.html">3</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    {{--<section class="section section-md bg-white">--}}
+        {{--<div class="shell shell-wide">--}}
+            {{--<div class="range range-md-center">--}}
+                {{--<div class="cell-lg-11">--}}
+                    {{--<!-- Section Header-->--}}
+                    {{--<div class="section__header">--}}
+                        {{--<h2>News</h2>--}}
+                        {{--<div class="section__header-element"><a class="link link-arrow" href="news.html"><span>Read Our News</span></a></div>--}}
+                    {{--</div>--}}
+                    {{--<div class="range range-center range-30 range-flex">--}}
+                        {{--<div class="cell-sm-10 cell-lg-6">--}}
+                            {{--<article class="post-modern"><a class="post-modern__image-wrap" href="single-post.html"><img class="post-modern__image" src="images/post-4-764x215.jpg" alt="" width="764" height="215"/></a>--}}
+                                {{--<div class="post-modern__main">--}}
+                                    {{--<p class="post-modern__title"><a href="single-post.html">Email Newsletters Hit a Speed Bump with Inaccurate Open Rates</a></p>--}}
+                                    {{--<p class="post-modern__text">As Clover Letter Emails Got Bigger in size, Founders Say, Its Open Rate Collapsed. Email newsletters are just as effective when working with existing customers, as they were from the very start.Also, the part of the problem...</p>--}}
+                                    {{--<ul class="post-modern__meta">--}}
+                                        {{--<li><span class="icon icon-primary mdi mdi-clock"></span><a href="single-post.html">January 6, 2017</a></li>--}}
+                                        {{--<li><span class="icon icon-primary fl-justicons-visible6"></span><span>524</span></li>--}}
+                                        {{--<li> <span class="icon icon-primary mdi mdi-comment-outline"></span><a href="single-post.html">3</a></li>--}}
+                                    {{--</ul>--}}
+                                {{--</div>--}}
+                            {{--</article>--}}
+                        {{--</div>--}}
+                        {{--<div class="cell-sm-5 cell-lg-3">--}}
+                            {{--<article class="post-modern"><a class="post-modern__image-wrap" href="single-post.html"><img class="post-modern__image" src="images/post-1-365x215.jpg" alt="" width="365" height="215"/></a>--}}
+                                {{--<div class="post-modern__main">--}}
+                                    {{--<p class="post-modern__title"><a href="single-post.html">How We Measure the Increasing Vlogs' Ad Potential</a></p>--}}
+                                    {{--<p class="post-modern__text">We have recently finished our research, which is closely connected</p>--}}
+                                    {{--<ul class="post-modern__meta">--}}
+                                        {{--<li><span class="icon icon-primary mdi mdi-clock"></span><a href="single-post.html">January 6, 2017</a></li>--}}
+                                        {{--<li><span class="icon icon-primary fl-justicons-visible6"></span><span>524</span></li>--}}
+                                        {{--<li> <span class="icon icon-primary mdi mdi-comment-outline"></span><a href="single-post.html">3</a></li>--}}
+                                    {{--</ul>--}}
+                                {{--</div>--}}
+                            {{--</article>--}}
+                        {{--</div>--}}
+                        {{--<div class="cell-sm-5 cell-lg-3">--}}
+                            {{--<article class="post-modern"><a class="post-modern__image-wrap" href="single-post.html"><img class="post-modern__image" src="images/post-2-365x215.jpg" alt="" width="365" height="215"/></a>--}}
+                                {{--<div class="post-modern__main">--}}
+                                    {{--<p class="post-modern__title"><a href="single-post.html">Digital Marketing Metrics That Really Matter Nowadays</a></p>--}}
+                                    {{--<p class="post-modern__text">Marketing is currently in a state of evolution where it is dispensing</p>--}}
+                                    {{--<ul class="post-modern__meta">--}}
+                                        {{--<li><span class="icon icon-primary mdi mdi-clock"></span><a href="single-post.html">January 6, 2017</a></li>--}}
+                                        {{--<li><span class="icon icon-primary fl-justicons-visible6"></span><span>524</span></li>--}}
+                                        {{--<li> <span class="icon icon-primary mdi mdi-comment-outline"></span><a href="single-post.html">3</a></li>--}}
+                                    {{--</ul>--}}
+                                {{--</div>--}}
+                            {{--</article>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
 @endsection

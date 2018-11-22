@@ -52,36 +52,34 @@
                         <button class="button button-sm button-block button-secondary" type="submit">Send</button>
                     </form>
                 </div>
-                <div class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3 footer-corporate__column">
-                    <h4 class="heading-bordered">Latest News</h4>
-                    <ul class="post-group post-light-group">
-                        <li>
-                            <article class="post-light">
-                                <p class="post-light__title"><a href="single-post.html">Email Newsletters Hit a Speed Bump with Inaccurate Open Rates</a></p>
-                                <time datetime="2017">April 13, 2017</time>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="post-light">
-                                <p class="post-light__title"><a href="single-post.html">How We Measure the Increasing Vlogs' Ad Potential</a></p>
-                                <time datetime="2017">March 25, 2017</time>
-                            </article>
-                        </li>
-                    </ul>
-                </div>
+                {{--<div class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3 footer-corporate__column">--}}
+                    {{--<h4 class="heading-bordered">Latest News</h4>--}}
+                    {{--<ul class="post-group post-light-group">--}}
+                        {{--<li>--}}
+                            {{--<article class="post-light">--}}
+                                {{--<p class="post-light__title"><a href="single-post.html">Email Newsletters Hit a Speed Bump with Inaccurate Open Rates</a></p>--}}
+                                {{--<time datetime="2017">April 13, 2017</time>--}}
+                            {{--</article>--}}
+                        {{--</li>--}}
+                        {{--<li>--}}
+                            {{--<article class="post-light">--}}
+                                {{--<p class="post-light__title"><a href="single-post.html">How We Measure the Increasing Vlogs' Ad Potential</a></p>--}}
+                                {{--<time datetime="2017">March 25, 2017</time>--}}
+                            {{--</article>--}}
+                        {{--</li>--}}
+                    {{--</ul>--}}
+                {{--</div>--}}
                 <div class="cell-xs-4 cell-sm-6 cell-md-2 cell-lg-2 cell-xl-1 footer-corporate__column">
                     <h4 class="heading-bordered">Links</h4>
                     <ul class="list-xxs list_darker">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About us</a>
+                        <li><a href="\">Home</a></li>
+                        <li><a href="about-us">About us</a>
                         </li>
-                        <li><a href="services.html">Services</a>
+                        <li><a href="services">Services</a>
                         </li>
-                        <li><a href="our-works.html">Our Works</a>
+                        <li><a href="our-works">Our Works</a>
                         </li>
-                        <li><a href="news.html">News</a>
-                        </li>
-                        <li><a href="contacts.html">Contacts</a>
+                        <li><a href="contacts">Contacts</a>
                         </li>
                     </ul>
                 </div>
