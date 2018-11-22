@@ -56,15 +56,15 @@
             </div>
         </div>
         <div class="section-layout-aside">
-            <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="images/home-1-538x200.jpg" alt="" width="538" height="200"/>
+            <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-1-538x200.jpg" alt="" width="538" height="200"/>
                     <div class="thumb-modern__caption">
                         <p class="thumb-modern__title">Strategy</p>
                     </div></a></div>
-            <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="images/home-2-498x195.jpg" alt="" width="498" height="195"/>
+            <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-2-498x195.jpg" alt="" width="498" height="195"/>
                     <div class="thumb-modern__caption">
                         <p class="thumb-modern__title">Creativity</p>
                     </div></a></div>
-            <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="images/home-3-460x195.jpg" alt="" width="460" height="195"/>
+            <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-3-460x195.jpg" alt="" width="460" height="195"/>
                     <div class="thumb-modern__caption">
                         <p class="thumb-modern__title">Innovation</p>
                     </div></a></div>
@@ -81,14 +81,14 @@
                             <div class="box-centered box-width-1 box-custom">
                                 <h2><span>Experience</span><span class="object-decorated object-decorated_inline" style="max-width: 125px;"><span class="heading-5">since 2006</span></span></h2>
                                 <p>Our company has been the leading provider of advertising services to American companies since 2006. We pay attention to every aspect of our work.</p>
-                                <div class="group-md group-middle button-group"><a class="button button-darker" href="contacts">get a quote</a>
+                                <div class="group-md group-middle button-group"><a class="button button-darker" href="{{route('contacts', ['locale'=>App::getLocale()])}}">get a quote</a>
                                     <p>or</p><a class="button button-primary" href="#">get a brochure</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="cell-sm-12 cell-md-6 reveal-flex">
-                        <div class="thumb-video"><img class="thumb-video__image" src="images/video-preview-962x465.jpg" alt="" width="962" height="465"/>
+                        <div class="thumb-video"><img class="thumb-video__image" src="/images/video-preview-962x465.jpg" alt="" width="962" height="465"/>
                             <div class="thumb-video__caption"><a class="thumb-video__button" href="//vimeo.com/108425305" data-lightgallery="item" data-src="//vimeo.com/108425305"></a>
                                 <h4 class="thumb-video__title">Video Presentation</h4>
                             </div>
@@ -158,7 +158,7 @@
                     <!-- Section Header-->
                     <div class="section__header">
                         <h2>Our Projects</h2>
-                        <div class="section__header-element"><a class="link link-arrow" href="our-work.html"><span>See All Projects</span></a></div>
+                        <div class="section__header-element"><a class="link link-arrow" href="{{route('our-works', ['locale'=>App::getLocale()])}}"><span>See All Projects</span></a></div>
                     </div>
                 </div>
             </div>
@@ -167,31 +167,31 @@
             <div class="isotope" data-isotope-layout="masonry" data-isotope-group="projects">
                 <div class="row row-no-gutter">
                     <div class="col-xs-6 col-md-4 isotope-item">
-                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-1-639x524.jpg" alt="" width="639" height="524"/>
+                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src=/"images/project-1-639x524.jpg" alt="" width="639" height="524"/>
                             <div class="thumb-zoe__caption">
                                 <p class="thumb-zoe__title">New Office Co.</p>
                             </div></a>
                     </div>
                     <div class="col-xs-6 col-md-2 isotope-item">
-                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-2-320x262.jpg" alt="" width="320" height="262"/>
+                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/mages/project-2-320x262.jpg" alt="" width="320" height="262"/>
                             <div class="thumb-zoe__caption">
                                 <p class="thumb-zoe__title">2K Stationery</p>
                             </div></a>
                     </div>
                     <div class="col-xs-6 col-md-2 isotope-item">
-                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-4-320x524.jpg" alt="" width="320" height="524"/>
+                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-4-320x524.jpg" alt="" width="320" height="524"/>
                             <div class="thumb-zoe__caption">
                                 <p class="thumb-zoe__title">iStep</p>
                             </div></a>
                     </div>
                     <div class="col-xs-6 col-md-4 isotope-item">
-                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-3-640x524.jpg" alt="" width="640" height="524"/>
+                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-3-640x524.jpg" alt="" width="640" height="524"/>
                             <div class="thumb-zoe__caption">
                                 <p class="thumb-zoe__title">PaperWorks Ltd.</p>
                             </div></a>
                     </div>
                     <div class="col-xs-6 col-md-2 isotope-item">
-                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-5-320x262.jpg" alt="" width="320" height="262"/>
+                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-5-320x262.jpg" alt="" width="320" height="262"/>
                             <div class="thumb-zoe__caption">
                                 <p class="thumb-zoe__title">BTS Corp.</p>
                             </div></a>
@@ -223,7 +223,7 @@
     </section>
 
     <!-- Our Professionals-->
-    <section class="section parallax-container bg-gray-dark" data-parallax-img="images/bg-image-3.jpg" alt="">
+    <section class="section parallax-container bg-gray-dark" data-parallax-img="/images/bg-image-3.jpg" alt="">
         <div class="parallax-content">
             <div class="section-sm text-center">
                 <div class="shell shell-wide">
@@ -238,7 +238,7 @@
                                 <div class="cell-sm-6 cell-lg-3">
                                     <!-- Card creative-->
                                     <article class="card-creative">
-                                        <div class="card-creative__header"><img src="images/team-1-115x119.jpg" alt="" width="115" height="119"/>
+                                        <div class="card-creative__header"><img src="/images/team-1-115x119.jpg" alt="" width="115" height="119"/>
                                         </div>
                                         <div class="card-creative__main" data-fixed-height="">
                                             <p class="card-creative__title">Sam Wilson</p>
@@ -250,7 +250,7 @@
                                 <div class="cell-sm-6 cell-lg-3">
                                     <!-- Card creative-->
                                     <article class="card-creative">
-                                        <div class="card-creative__header"><img src="images/team-2-115x119.jpg" alt="" width="115" height="119"/>
+                                        <div class="card-creative__header"><img src="/images/team-2-115x119.jpg" alt="" width="115" height="119"/>
                                         </div>
                                         <div class="card-creative__main" data-fixed-height="">
                                             <p class="card-creative__title">Jeffrey Neddery</p>
@@ -299,21 +299,21 @@
                     <!-- Section Header-->
                     <div class="section__header">
                         <h2>Clients</h2>
-                        <div class="section__header-element"><a class="link link-arrow" href="contacts"><span>Get a Quote</span></a></div>
+                        <div class="section__header-element"><a class="link link-arrow" href="{{route('contacts', ['locale' => App::getLocale()])}}"><span>Get a Quote</span></a></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="shell-fluid">
             <div class="range range-condensed range-md-reverse range-flex">
-                <div class="cell-md-6 bg-gray-dark bg-image" style="background-image: url(images/parallax-5.jpg);">
+                <div class="cell-md-6 bg-gray-dark bg-image" style="background-image: url(/images/parallax-5.jpg);">
                     <div class="section-variant-1">
                         <!-- Owl Carousel-->
                         <div class="owl-carousel owl-carousel_style-3" data-items="1" data-autoplay="true" data-dots="true" data-nav="true" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
                             <div class="item">
                                 <!-- Quote light-->
                                 <article class="quote-light">
-                                    <div class="quote-light__image-wrap"><img class="quote-light__image" src="images/testimonials-1-88x88.jpg" alt="" width="88" height="88"/>
+                                    <div class="quote-light__image-wrap"><img class="quote-light__image" src="/images/testimonials-1-88x88.jpg" alt="" width="88" height="88"/>
                                     </div>
                                     <div class="quote-light__main">
                                         <p class="q">Median was a great strategic partner and provided valuable insights to support our turnaround. Their understanding of our business and the marketplace resulted in recommendations to help fuel our success.</p>

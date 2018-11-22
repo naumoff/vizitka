@@ -11,13 +11,18 @@
 |
 */
 
-Route::get('/', 'FrontController@index');
+Route::group(
+    [
+        'prefix'=>'{locale?}',
+        'where'=>['locale' => '[a-z][a-z]']
+    ], function(){
+        Route::get('test', function($locale){
+            dump($locale);
+        });
+        Route::get('', 'FrontController@index')->name('main');
+        Route::get('about-us', 'FrontController@aboutUs')->name('about-us');
+        Route::get('services', 'FrontController@services')->name('services');
+        Route::get('our-works', 'FrontController@ourWorks')->name('our-works');
+        Route::get('contacts', 'FrontController@contacts')->name('contacts');
+});
 
-Route::get('about-us', 'FrontController@aboutUs');
-Route::get('services', 'FrontController@services');
-Route::get('our-works', 'FrontController@ourWorks');
-Route::get('contacts', 'FrontController@contacts');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

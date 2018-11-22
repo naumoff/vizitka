@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Breadcrumbs-->
-    <section class="breadcrumbs-custom bg-image" style="background-image: url(images/bg-image-6.jpg);">
+    <section class="breadcrumbs-custom bg-image" style="background-image: url(/images/bg-image-6.jpg);">
         <div class="shell">
             <h2 class="breadcrumbs-custom__title">Contacts</h2>
             <ul class="breadcrumbs-custom__path">

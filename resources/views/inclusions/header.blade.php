@@ -44,23 +44,23 @@
                         <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                         <!-- RD Navbar Brand-->
                         <div class="rd-navbar-brand"><a class="brand" href="/">
-                                <div class="brand__name"><img src="images/logo-135x47.png" alt="" width="135" height="47"/>
+                                <div class="brand__name"><img src="/images/logo-135x47.png" alt="" width="135" height="47"/>
                                 </div></a></div>
                     </div>
                     <!-- RD Navbar Nav -->
                     <div class="rd-navbar-nav-wrap">
-                        <div class="rd-navbar-main-item"><a class="button button-xs button-primary" href="contacts">Get a quote</a></div>
+                        <div class="rd-navbar-main-item"><a class="button button-xs button-primary" href="{{route('contacts', ['locale'=>App::getLocale()])}}">Get a quote</a></div>
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
-                            <li class="active"><a href="/">Home</a>
+                            <li class="active"><a href="{{route('main', ['locale'=>App::getLocale()])}}">Home</a>
                             </li>
-                            <li><a href="about-us">About Us</a>
+                            <li><a href="{{route('about-us', ['locale'=>App::getLocale()])}}">About Us</a>
                             </li>
-                            <li><a href="services">Services</a>
+                            <li><a href="{{route('services', ['locale'=>App::getLocale()])}}">Services</a>
                             </li>
-                            <li><a href="our-works">Our Work</a>
+                            <li><a href="{{route('our-works', ['locale'=>App::getLocale()])}}">Our Work</a>
                             </li>
-                            <li><a href="contacts">Contacts</a>
+                            <li><a href="{{route('contacts', ['locale'=>App::getLocale()])}}">Contacts</a>
                             </li>
                         </ul>
                     </div>

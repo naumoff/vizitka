@@ -72,15 +72,11 @@
                 <div class="cell-xs-4 cell-sm-6 cell-md-2 cell-lg-2 cell-xl-1 footer-corporate__column">
                     <h4 class="heading-bordered">Links</h4>
                     <ul class="list-xxs list_darker">
-                        <li><a href="\">Home</a></li>
-                        <li><a href="about-us">About us</a>
-                        </li>
-                        <li><a href="services">Services</a>
-                        </li>
-                        <li><a href="our-works">Our Works</a>
-                        </li>
-                        <li><a href="contacts">Contacts</a>
-                        </li>
+                        <li><a href="{{route('main', ['locale'=>App::getLocale()])}}">Home</a></li>
+                        <li><a href="{{route('about-us', ['locale'=>App::getLocale()])}}">About us</a></li>
+                        <li><a href="{{route('services', ['locale'=>App::getLocale()])}}">Services</a></li>
+                        <li><a href="{{route('our-works', ['locale'=>App::getLocale()])}}">Our Works</a></li>
+                        <li><a href="{{route('contacts', ['locale'=>App::getLocale()])}}">Contacts</a></li>
                     </ul>
                 </div>
             </div>

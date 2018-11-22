@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Breadcrumbs-->
-    <section class="breadcrumbs-custom bg-image" style="background-image: url(images/bg-image-1.jpg);">
+    <section class="breadcrumbs-custom bg-image" style="background-image: url(/images/bg-image-1.jpg);">
         <div class="shell">
             <h2 class="breadcrumbs-custom__title">Services</h2>
             <ul class="breadcrumbs-custom__path">
@@ -47,54 +47,54 @@
                                 <div class="slick-slider-vertical">
                                     <div class="slick-slider carousel-parent" id="parent-carousel-1" data-loop="true" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel-1" data-for="#child-carousel-1">
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-1-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-1-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-2-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-2-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-3-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-3-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-4-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-4-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-5-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-5-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slick-slider carousel-child" id="child-carousel-1" data-for="#parent-carousel-1" data-arrows="true" data-loop="true" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="3" data-md-items="3" data-lg-items="3" data-slide-to-scroll="1" data-vertical="false" data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true" data-lg-vertical="true" data-center-mode="true">
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-1-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-1-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-2-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-2-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-3-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-3-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-4-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-4-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-5-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-5-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -114,54 +114,54 @@
                                 <div class="slick-slider-vertical">
                                     <div class="slick-slider carousel-parent" id="parent-carousel-2" data-loop="true" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel-2" data-for="#child-carousel-2">
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-3-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-3-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-4-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-4-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-5-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-5-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-6-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-6-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-1-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-1-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slick-slider carousel-child" id="child-carousel-2" data-for="#parent-carousel-2" data-arrows="true" data-loop="true" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="3" data-md-items="3" data-lg-items="3" data-slide-to-scroll="1" data-vertical="false" data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true" data-lg-vertical="true" data-center-mode="true">
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-3-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-3-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-4-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-4-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-5-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-5-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-6-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-6-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-1-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-1-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -181,54 +181,54 @@
                                 <div class="slick-slider-vertical">
                                     <div class="slick-slider carousel-parent" id="parent-carousel-3" data-loop="true" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel-3" data-for="#child-carousel-3">
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-5-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-5-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-6-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-6-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-1-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-1-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-2-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-2-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-3-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-3-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slick-slider carousel-child" id="child-carousel-3" data-for="#parent-carousel-3" data-arrows="true" data-loop="true" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="3" data-md-items="3" data-lg-items="3" data-slide-to-scroll="1" data-vertical="false" data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true" data-lg-vertical="true" data-center-mode="true">
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-5-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-5-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-6-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-6-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-1-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-1-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-2-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-2-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-3-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-3-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -248,54 +248,54 @@
                                 <div class="slick-slider-vertical">
                                     <div class="slick-slider carousel-parent" id="parent-carousel-4" data-loop="true" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel-4" data-for="#child-carousel-4">
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-2-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-2-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-3-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-3-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-4-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-4-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-5-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-5-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="slick-image"><img src="images/services-6-565x401.jpg" alt="" width="565" height="401"/>
+                                            <div class="slick-image"><img src="/images/services-6-565x401.jpg" alt="" width="565" height="401"/>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slick-slider carousel-child" id="child-carousel-4" data-for="#parent-carousel-4" data-arrows="true" data-loop="true" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="3" data-md-items="3" data-lg-items="3" data-slide-to-scroll="1" data-vertical="false" data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true" data-lg-vertical="true" data-center-mode="true">
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-2-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-2-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-3-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-3-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-4-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-4-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-5-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-5-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="slick-slider__inner">
-                                                <div class="slick-thumb"><img src="images/services-6-565x401.jpg" alt="" width="565" height="401"/>
+                                                <div class="slick-thumb"><img src="/images/services-6-565x401.jpg" alt="" width="565" height="401"/>
                                                 </div>
                                             </div>
                                         </div>

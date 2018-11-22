@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Breadcrumbs-->
-    <section class="breadcrumbs-custom bg-image" style="background-image: url(images/bg-image-9.jpg);">
+    <section class="breadcrumbs-custom bg-image" style="background-image: url(/images/bg-image-9.jpg);">
         <div class="shell">
             <h2 class="breadcrumbs-custom__title">Our Work</h2>
             <ul class="breadcrumbs-custom__path">
@@ -40,61 +40,61 @@
                     <div class="isotope isotope-1" data-isotope-layout="masonry" data-isotope-group="gallery">
                         <div class="row row-no-gutter">
                             <div class="col-xs-6 col-md-4 isotope-item" data-filter="Commercials">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-1-639x524.jpg" alt="" width="639" height="524"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-1-639x524.jpg" alt="" width="639" height="524"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">New Office Co.</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-2 isotope-item" data-filter="Digital advertising">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-2-320x262.jpg" alt="" width="320" height="262"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-2-320x262.jpg" alt="" width="320" height="262"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">2K Stationery</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-2 isotope-item" data-filter="Commercials">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-4-320x524.jpg" alt="" width="320" height="524"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-4-320x524.jpg" alt="" width="320" height="524"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">iStep</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-4 isotope-item" data-filter="Branding">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-3-640x524.jpg" alt="" width="640" height="524"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-3-640x524.jpg" alt="" width="640" height="524"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">PaperWorks Ltd.</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-2 isotope-item" data-filter="Digital advertising">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-5-320x262.jpg" alt="" width="320" height="262"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-5-320x262.jpg" alt="" width="320" height="262"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">BTS Corp.</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-2 isotope-item" data-filter="Digital advertising">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-7-320x524.jpg" alt="" width="320" height="524"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-7-320x524.jpg" alt="" width="320" height="524"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">Greenery Ltd.</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-4 isotope-item" data-filter="Branding">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-8-639x524.jpg" alt="" width="639" height="524"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-8-639x524.jpg" alt="" width="639" height="524"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">Laserworx</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-2 isotope-item" data-filter="Printed Ads">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-9-320x262.jpg" alt="" width="320" height="262"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-9-320x262.jpg" alt="" width="320" height="262"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">MAX Computing</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-4 isotope-item" data-filter="Commercials">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-10-640x524.jpg" alt="" width="640" height="524"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-10-640x524.jpg" alt="" width="640" height="524"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">Razor Publishing</p>
                                     </div></a>
                             </div>
                             <div class="col-xs-6 col-md-2 isotope-item" data-filter="Printed Ads">
-                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="images/project-11-320x262.jpg" alt="" width="320" height="262"/>
+                                <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image" src="/images/project-11-320x262.jpg" alt="" width="320" height="262"/>
                                     <div class="thumb-zoe__caption">
                                         <p class="thumb-zoe__title">Rolx Accessories</p>
                                     </div></a>
