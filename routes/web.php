@@ -14,7 +14,6 @@
 Route::group(
     [
         'prefix'=>'{locale?}',
-        'where'=>['locale' => '[a-z][a-z]']
     ], function(){
         Route::get('test', function($locale){
             dump($locale);

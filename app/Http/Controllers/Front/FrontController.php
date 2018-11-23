@@ -4,37 +4,41 @@ namespace App\Http\Controllers\Front;
 
 use App;
 use App\Http\Controllers\Controller;
+use App\Services\Locale\LocaleSetterInterface;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
-    public function __construct(Request $request)
+    /**
+     * FrontController constructor.
+     * @param LocaleSetterInterface $localeSetter
+     */
+    public function __construct(LocaleSetterInterface $localeSetter)
     {
-        $locale = $request->route('locale');
-        App::setLocale($locale);
+        $localeSetter->setLocale();
     }
 
-    public function index($locale)
+    public function index()
     {
         return view('controllers.front.index');
     }
 
-    public function aboutUs($locale)
+    public function aboutUs()
     {
         return view('controllers.front.about_us');
     }
 
-    public function services($locale)
+    public function services()
     {
         return view('controllers.front.services');
     }
 
-    public function ourWorks($locale)
+    public function ourWorks()
     {
         return view('controllers.front.our_works');
     }
 
-    public function contacts($locale)
+    public function contacts()
     {
         return view('controllers.front.contacts');
     }
