@@ -6,7 +6,7 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-namespace App\Services\Translation;
+namespace App\Contracts;
 
 
 interface LocaleServiceInterface

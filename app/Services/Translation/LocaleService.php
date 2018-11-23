@@ -9,6 +9,7 @@
 namespace App\Services\Translation;
 
 use App;
+use App\Contracts\LocaleServiceInterface;
 use Cookie;
 use Illuminate\Contracts\Encryption\Encrypter;
 use Illuminate\Http\Request;
@@ -51,7 +52,7 @@ final class LocaleService implements LocaleServiceInterface
 
     #region SERVICE METHODS
 
-    private function setLocaleInCookie()
+    private function setLocaleInCookie(): void
     {
         $encryptedLocale = Cookie::get('locale');
         /** @var Encrypter $encrypter */

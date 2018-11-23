@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Front;
 
 use App;
+use App\Contracts\LocaleServiceInterface;
 use App\Http\Controllers\Controller;
-use App\Services\Translation\LocaleService;
 use Cookie;
 use Illuminate\Http\Request;
 
@@ -19,9 +19,9 @@ class FrontController extends Controller
     #region MAIN METHODS
     /**
      * FrontController constructor.
-     * @param LocaleService $localeService
+     * @param LocaleServiceInterface $localeService
      */
-    public function __construct(LocaleService $localeService)
+    public function __construct(LocaleServiceInterface $localeService)
     {
         $localeService->setLocale();
         $this->locale = $localeService->getLocale();
