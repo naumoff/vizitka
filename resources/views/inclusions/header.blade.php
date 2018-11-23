@@ -49,18 +49,18 @@
                     </div>
                     <!-- RD Navbar Nav -->
                     <div class="rd-navbar-nav-wrap">
-                        <div class="rd-navbar-main-item"><a class="button button-xs button-primary" href="{{route('contacts', ['locale'=>App::getLocale()])}}">Get a quote</a></div>
+                        <div class="rd-navbar-main-item"><a class="button button-xs button-primary" href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">Get a quote</a></div>
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
-                            <li class="active"><a href="{{route('main', ['locale'=>App::getLocale()])}}">Home</a>
+                            <li class="active"><a href="{{route($_t::ROUTE_MAIN, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_MAIN)</a>
                             </li>
-                            <li><a href="{{route('about-us', ['locale'=>App::getLocale()])}}">About Us</a>
+                            <li><a href="{{route($_t::ROUTE_ABOUT_US, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_ABOUT_US)</a>
                             </li>
-                            <li><a href="{{route('services', ['locale'=>App::getLocale()])}}">Services</a>
+                            <li><a href="{{route($_t::ROUTE_SERVICES, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_SERVICES)</a>
                             </li>
-                            <li><a href="{{route('our-works', ['locale'=>App::getLocale()])}}">Our Work</a>
+                            <li><a href="{{route($_t::ROUTE_OUR_WORK, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_OUR_WORK)</a>
                             </li>
-                            <li><a href="{{route('contacts', ['locale'=>App::getLocale()])}}">Contacts</a>
+                            <li><a href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_CONTACTS)</a>
                             </li>
                         </ul>
                     </div>

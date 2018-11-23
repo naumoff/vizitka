@@ -4,12 +4,11 @@ namespace App\Providers;
 
 use App\Contracts\LocaleServiceInterface;
 use App\Services\Translation\LocaleService;
-use Illuminate\Http\Request;
 use Illuminate\Support\ServiceProvider;
 
 class LocaleServiceProvider extends ServiceProvider
 {
-
+    /** @var bool $defer */
     protected $defer = true;
 
     /**
@@ -17,7 +16,7 @@ class LocaleServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot():void
     {
         //
     }
@@ -27,12 +26,16 @@ class LocaleServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function register():void
     {
         $this->app->bind(LocaleServiceInterface::class, LocaleService::class);
     }
 
-    public function provides()
+    /**
+     * needed for defer
+     * @return array
+     */
+    public function provides(): array
     {
         return [LocaleServiceInterface::class];
     }

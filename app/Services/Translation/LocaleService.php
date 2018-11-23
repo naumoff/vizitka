@@ -55,10 +55,15 @@ final class LocaleService implements LocaleServiceInterface
     private function setLocaleInCookie(): void
     {
         $encryptedLocale = Cookie::get('locale');
-        /** @var Encrypter $encrypter */
-        $encrypter = app(Encrypter::class);
+        if ($encryptedLocale !== null) {
+            /** @var Encrypter $encrypter */
+            $encrypter = app(Encrypter::class);
 
-        $this->localeInCookie = $encrypter->decrypt($encryptedLocale, false);
+            $this->localeInCookie = $encrypter->decrypt($encryptedLocale, false);
+        } else {
+            $this->localeInCookie = null;
+        }
+
     }
 
     /**

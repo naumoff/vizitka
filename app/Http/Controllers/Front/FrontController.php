@@ -43,9 +43,9 @@ class FrontController extends Controller
         return view('controllers.front.services');
     }
 
-    public function ourWorks()
+    public function ourWork()
     {
-        return view('controllers.front.our_works');
+        return view('controllers.front.our_work');
     }
 
     public function contacts()

@@ -81,7 +81,7 @@
                             <div class="box-centered box-width-1 box-custom">
                                 <h2><span>Experience</span><span class="object-decorated object-decorated_inline" style="max-width: 125px;"><span class="heading-5">since 2006</span></span></h2>
                                 <p>Our company has been the leading provider of advertising services to American companies since 2006. We pay attention to every aspect of our work.</p>
-                                <div class="group-md group-middle button-group"><a class="button button-darker" href="{{route('contacts', ['locale'=>App::getLocale()])}}">get a quote</a>
+                                <div class="group-md group-middle button-group"><a class="button button-darker" href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">get a quote</a>
                                     <p>or</p><a class="button button-primary" href="#">get a brochure</a>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                     <!-- Section Header-->
                     <div class="section__header">
                         <h2>Our Projects</h2>
-                        <div class="section__header-element"><a class="link link-arrow" href="{{route('our-works', ['locale'=>App::getLocale()])}}"><span>See All Projects</span></a></div>
+                        <div class="section__header-element"><a class="link link-arrow" href="{{route($_t::ROUTE_OUR_WORK, ['locale'=>App::getLocale()])}}"><span>See All Projects</span></a></div>
                     </div>
                 </div>
             </div>
@@ -299,7 +299,7 @@
                     <!-- Section Header-->
                     <div class="section__header">
                         <h2>Clients</h2>
-                        <div class="section__header-element"><a class="link link-arrow" href="{{route('contacts', ['locale' => App::getLocale()])}}"><span>Get a Quote</span></a></div>
+                        <div class="section__header-element"><a class="link link-arrow" href="{{route($_t::ROUTE_CONTACTS, ['locale' => App::getLocale()])}}"><span>Get a Quote</span></a></div>
                     </div>
                 </div>
             </div>

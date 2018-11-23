@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Services\Translation\TransKey;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +14,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer(['layouts.app', 'controllers.front.*'], function($view){
+            $view->with('_t', new TransKey());
+        });
     }
 
     /**
@@ -23,6 +26,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+
     }
 }
