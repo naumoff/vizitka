@@ -69,7 +69,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Locale Configuration
+    | Application LocaleService Configuration
     |--------------------------------------------------------------------------
     |
     | The application locale determines the default locale that will be used
@@ -82,7 +82,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Fallback Locale
+    | Application Fallback LocaleService
     |--------------------------------------------------------------------------
     |
     | The fallback locale determines the locale to use when the current one
@@ -95,7 +95,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Faker Locale
+    | Faker LocaleService
     |--------------------------------------------------------------------------
     |
     | This locale will be used by the Faker PHP library when generating fake

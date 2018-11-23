@@ -4,18 +4,28 @@ namespace App\Http\Controllers\Front;
 
 use App;
 use App\Http\Controllers\Controller;
-use App\Services\Locale\LocaleSetterInterface;
+use App\Services\Translation\LocaleService;
+use Cookie;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
+    #region PROPERTIES
+    /** @var string $locale */
+    private $locale;
+
+    #endregion
+
+    #region MAIN METHODS
     /**
      * FrontController constructor.
-     * @param LocaleSetterInterface $localeSetter
+     * @param LocaleService $localeService
      */
-    public function __construct(LocaleSetterInterface $localeSetter)
+    public function __construct(LocaleService $localeService)
     {
-        $localeSetter->setLocale();
+        $localeService->setLocale();
+        $this->locale = $localeService->getLocale();
+        Cookie::queue(Cookie::make('locale', $this->locale, 30));
     }
 
     public function index()
@@ -42,4 +52,5 @@ class FrontController extends Controller
     {
         return view('controllers.front.contacts');
     }
+    #endregion
 }

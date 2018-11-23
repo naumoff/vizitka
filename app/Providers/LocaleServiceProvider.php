@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use App\Services\Locale\LocaleSetter;
-use App\Services\Locale\LocaleSetterInterface;
+use App\Services\Translation\LocaleService;
+use App\Services\Translation\LocaleServiceInterface;
 use Illuminate\Http\Request;
 use Illuminate\Support\ServiceProvider;
 
@@ -29,8 +29,13 @@ class LocaleServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('App\Services\Locale\LocaleSetterInterface', function ($app) {
-            return new LocaleSetter(request());
+        $this->app->singleton(LocaleService::class, function ($app) {
+            return new LocaleService(request());
         });
+    }
+
+    public function provides()
+    {
+        return [LocaleService::class];
     }
 }

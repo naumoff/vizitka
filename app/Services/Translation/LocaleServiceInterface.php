@@ -6,10 +6,10 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-namespace App\Services\Locale;
+namespace App\Services\Translation;
 
 
-interface LocaleSetterInterface
+interface LocaleServiceInterface
 {
     public const AVAILABLE_LOCALES = [
         'en',
@@ -18,5 +18,7 @@ interface LocaleSetterInterface
     ];
 
     public function setLocale(): void;
+
+    public function getLocale(): string;
 
 }
