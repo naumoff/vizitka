@@ -63,7 +63,6 @@ final class LocaleService implements LocaleServiceInterface
         } else {
             $this->localeInCookie = null;
         }
-
     }
 
     /**
@@ -73,8 +72,7 @@ final class LocaleService implements LocaleServiceInterface
     {
         if ($this->locale === null || !in_array($this->locale, LocaleServiceInterface::AVAILABLE_LOCALES)) {
             $this->setLocaleInCookie();
-            if (
-                $this->localeInCookie !== null &&
+            if ($this->localeInCookie !== null &&
                 in_array($this->localeInCookie, LocaleServiceInterface::AVAILABLE_LOCALES)
             ) {
                 $this->locale = $this->localeInCookie;

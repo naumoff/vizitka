@@ -49,18 +49,18 @@
                     </div>
                     <!-- RD Navbar Nav -->
                     <div class="rd-navbar-nav-wrap">
-                        <div class="rd-navbar-main-item"><a class="button button-xs button-primary" href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">Get a quote</a></div>
+                        <div class="rd-navbar-main-item"><a class="button button-xs button-primary" href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang($_t::BUTTON_QUOTE)</a></div>
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
-                            <li class="active"><a href="{{route($_t::ROUTE_MAIN, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_MAIN)</a>
+                            <li class="active"><a href="{{route($_t::ROUTE_MAIN, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_MAIN)</a>
                             </li>
-                            <li><a href="{{route($_t::ROUTE_ABOUT_US, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_ABOUT_US)</a>
+                            <li><a href="{{route($_t::ROUTE_ABOUT_US, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_ABOUT_US)</a>
                             </li>
-                            <li><a href="{{route($_t::ROUTE_SERVICES, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_SERVICES)</a>
+                            <li><a href="{{route($_t::ROUTE_SERVICES, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_SERVICES)</a>
                             </li>
-                            <li><a href="{{route($_t::ROUTE_OUR_WORK, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_OUR_WORK)</a>
+                            <li><a href="{{route($_t::ROUTE_OUR_WORK, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_OUR_WORK)</a>
                             </li>
-                            <li><a href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang('route_names.'.$_t::ROUTE_CONTACTS)</a>
+                            <li><a href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_CONTACTS)</a>
                             </li>
                         </ul>
                     </div>

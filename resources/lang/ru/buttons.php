@@ -1,18 +1,17 @@
 <?php
 /**
  * User: Andrey Naumoff
- * Date: 23-Nov-18
- * Time: 11:39 PM
+ * Date: 24-Nov-18
+ * Time: 2:43 PM
  * E-mail: andrey.naumoff@gmail.com
  */
 
 use App\Services\Translation\TransKeyService;
 
 $transKeys = [
-    TransKeyService::HEAD_MENU => 'Menu',
-    TransKeyService::HEAD_SUBSCRIBE => 'Subscribe Now',
-    TransKeyService::HEAD_MAIN_OFFICE => 'Main Office',
-    TransKeyService::HEAD_GET_IN_TOUCH => 'Get in Touch',
+    TransKeyService::BUTTON_QUOTE => 'Получить предложение',
+    TransKeyService::BUTTON_SEND_MESSAGE => 'Отправить сообщение',
+    TransKeyService::BUTTON_SEND => 'Отправить',
 ];
 
 /** @var TransKeyService $service */

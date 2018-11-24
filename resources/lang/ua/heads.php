@@ -6,10 +6,16 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-use App\Services\Translation\TransKey;
+use App\Services\Translation\TransKeyService;
 
-return [
-    TransKey::HEAD_MENU => 'Меню',
-    TransKey::HEAD_SUBSCRIBE => 'Підписатися',
-    TransKey::HEAD_MAIN_OFFICE => 'Головний офіс'
+$transKeys = [
+    TransKeyService::HEAD_MENU => 'Меню',
+    TransKeyService::HEAD_SUBSCRIBE => 'Підписатися',
+    TransKeyService::HEAD_MAIN_OFFICE => 'Головний офіс',
+    TransKeyService::HEAD_GET_IN_TOUCH => 'Увійти в контакт',
 ];
+
+/** @var TransKeyService $service */
+$service = app(TransKeyService::class);
+
+return $service->getModifiedArray($transKeys);

@@ -11,15 +11,17 @@
 |
 */
 
-use App\Services\Translation\TransKey;
+use App\Services\Translation\TransKeyService;
 
 Route::group(
     [
         'prefix'=>'{locale?}',
-    ], function(){
-        Route::get('', 'FrontController@index')->name(TransKey::ROUTE_MAIN);
-        Route::get('about-us', 'FrontController@aboutUs')->name(TransKey::ROUTE_ABOUT_US);
-        Route::get('services', 'FrontController@services')->name(TransKey::ROUTE_SERVICES);
-        Route::get('our-works', 'FrontController@ourWork')->name(TransKey::ROUTE_OUR_WORK);
-        Route::get('contacts', 'FrontController@contacts')->name(TransKey::ROUTE_CONTACTS);
-});
+    ],
+    function () {
+        Route::get('', 'FrontController@index')->name(TransKeyService::ROUTE_MAIN);
+        Route::get('about-us', 'FrontController@aboutUs')->name(TransKeyService::ROUTE_ABOUT_US);
+        Route::get('services', 'FrontController@services')->name(TransKeyService::ROUTE_SERVICES);
+        Route::get('our-works', 'FrontController@ourWork')->name(TransKeyService::ROUTE_OUR_WORK);
+        Route::get('contacts', 'FrontController@contacts')->name(TransKeyService::ROUTE_CONTACTS);
+    }
+);

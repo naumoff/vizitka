@@ -18,7 +18,7 @@
             <div class="layout-bordered">
                 <div class="layout-bordered__main text-center">
                     <div class="layout-bordered__main-inner">
-                        <h3>Get in Touch</h3>
+                        <h3>@lang($_t::HEAD_GET_IN_TOUCH)</h3>
                         <p>We are available 24/7 by fax, e-mail or by phone. You can also use our quick contact form to ask a question about our services and projects.</p>
                         <!-- RD Mailform-->
                         <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
@@ -26,29 +26,29 @@
                                 <div class="cell-sm-6">
                                     <div class="form-wrap">
                                         <input class="form-input" id="contact-first-name" type="text" name="first-name" data-constraints="@Required">
-                                        <label class="form-label" for="contact-first-name">First name</label>
+                                        <label class="form-label" for="contact-first-name">@lang($_t::PLACEHOLDER_NAME)</label>
                                     </div>
                                 </div>
                                 <div class="cell-sm-6">
                                     <div class="form-wrap">
                                         <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required">
-                                        <label class="form-label" for="contact-phone">Phone</label>
+                                        <label class="form-label" for="contact-phone">@lang($_t::PLACEHOLDER_PHONE)</label>
                                     </div>
                                 </div>
                                 <div class="cell-xs-12">
                                     <div class="form-wrap">
-                                        <label class="form-label" for="contact-message">Your Message</label>
+                                        <label class="form-label" for="contact-message">@lang($_t::PLACEHOLDER_MESSAGE)</label>
                                         <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
                                     </div>
                                 </div>
                                 <div class="cell-sm-6">
                                     <div class="form-wrap">
                                         <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-                                        <label class="form-label" for="contact-email">E-mail</label>
+                                        <label class="form-label" for="contact-email">@lang($_t::PLACEHOLDER_ENTER_EMAIL)</label>
                                     </div>
                                 </div>
                                 <div class="cell-sm-6">
-                                    <button class="button button-block button-primary" type="submit">Send Message</button>
+                                    <button class="button button-block button-primary" type="submit">@lang($_t::BUTTON_SEND_MESSAGE)</button>
                                 </div>
                             </div>
                         </form>
