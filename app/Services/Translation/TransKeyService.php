@@ -33,6 +33,9 @@ final class TransKeyService implements TransKeyServiceInterface
     public const HEAD_MAIN_OFFICE = 'heads.main-office';
     public const HEAD_GET_IN_TOUCH = 'heads.get-in-touch';
     public const HEAD_GET_SOCIAL = 'heads.get-social';
+    public const HEAD_PHONE = 'heads.phone';
+    public const HEAD_EMAIL = 'heads.email';
+    public const HEAD_ADDRESS = 'heads.address';
     #endregion
 
     #region CONSTANTS BUTTONS

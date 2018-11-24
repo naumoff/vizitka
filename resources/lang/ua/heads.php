@@ -13,6 +13,10 @@ $transKeys = [
     TransKeyService::HEAD_SUBSCRIBE => 'Підписатися',
     TransKeyService::HEAD_MAIN_OFFICE => 'Головний офіс',
     TransKeyService::HEAD_GET_IN_TOUCH => 'Увійти в контакт',
+    TransKeyService::HEAD_GET_SOCIAL => 'Ми в соц. мережах',
+    TransKeyService::HEAD_PHONE => 'Телефон',
+    TransKeyService::HEAD_EMAIL => 'Ел. адреса',
+    TransKeyService::HEAD_ADDRESS => 'Адреса',
 ];
 
 /** @var TransKeyService $service */

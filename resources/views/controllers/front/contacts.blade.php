@@ -4,10 +4,10 @@
     <!-- Breadcrumbs-->
     <section class="breadcrumbs-custom bg-image" style="background-image: url(/images/bg-image-6.jpg);">
         <div class="shell">
-            <h2 class="breadcrumbs-custom__title">Contacts</h2>
+            <h2 class="breadcrumbs-custom__title">@lang($_t::ROUTE_CONTACTS)</h2>
             <ul class="breadcrumbs-custom__path">
-                <li><a href="/">Home</a></li>
-                <li class="active">Contacts</li>
+                <li><a href="/">@lang($_t::ROUTE_MAIN)</a></li>
+                <li class="active">@lang($_t::ROUTE_CONTACTS)</li>
             </ul>
         </div>
     </section>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="layout-bordered__aside">
                     <div class="layout-bordered__aside-item">
-                        <p class="heading-8">Get social </p>
+                        <p class="heading-8">@lang($_t::HEAD_GET_SOCIAL)</p>
                         <ul class="list-inline-xs">
                             <li><a class="icon icon-sm icon-default fa fa-facebook" href="#"></a></li>
                             <li><a class="icon icon-sm icon-default fa fa-twitter" href="#"></a></li>
@@ -65,21 +65,21 @@
                         </ul>
                     </div>
                     <div class="layout-bordered__aside-item">
-                        <p class="heading-8">Phone</p>
+                        <p class="heading-8">@lang($_t::HEAD_PHONE)</p>
                         <div class="unit unit-horizontal unit-spacing-xxs">
                             <div class="unit__left"><span class="icon icon-sm icon-primary material-icons-local_phone"></span></div>
                             <div class="unit__body"><a href="callto:#">1-800-1234-567</a></div>
                         </div>
                     </div>
                     <div class="layout-bordered__aside-item">
-                        <p class="heading-8">E-mail</p>
+                        <p class="heading-8">@lang($_t::HEAD_EMAIL)</p>
                         <div class="unit unit-horizontal unit-spacing-xxs">
                             <div class="unit__left"><span class="icon icon-sm icon-primary mdi mdi-email-outline"></span></div>
                             <div class="unit__body"><a href="mailto:#">info@demolink.org</a></div>
                         </div>
                     </div>
                     <div class="layout-bordered__aside-item">
-                        <p class="heading-8">Address</p>
+                        <p class="heading-8">@lang($_t::HEAD_ADDRESS)</p>
                         <div class="unit unit-horizontal unit-spacing-xxs">
                             <div class="unit__left"><span class="icon icon-sm icon-primary material-icons-location_on"></span></div>
                             <div class="unit__body"><a href="#">6036 Richmond hwy., <br> Alexandria, VA, 2230</a></div>

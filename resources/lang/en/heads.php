@@ -13,6 +13,10 @@ $transKeys = [
     TransKeyService::HEAD_SUBSCRIBE => 'Subscribe Now',
     TransKeyService::HEAD_MAIN_OFFICE => 'Main Office',
     TransKeyService::HEAD_GET_IN_TOUCH => 'Get in Touch',
+    TransKeyService::HEAD_GET_SOCIAL => 'Get social',
+    TransKeyService::HEAD_PHONE => 'Phone',
+    TransKeyService::HEAD_EMAIL => 'E-Mail',
+    TransKeyService::HEAD_ADDRESS => 'Address',
 ];
 
 /** @var TransKeyService $service */

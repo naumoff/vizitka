@@ -4,10 +4,10 @@
     <!-- Breadcrumbs-->
     <section class="breadcrumbs-custom bg-image" style="background-image: url(/images/bg-image-9.jpg);">
         <div class="shell">
-            <h2 class="breadcrumbs-custom__title">Our Work</h2>
+            <h2 class="breadcrumbs-custom__title">@lang($_t::ROUTE_OUR_WORK)</h2>
             <ul class="breadcrumbs-custom__path">
-                <li><a href="/">Home</a></li>
-                <li class="active">Our Work</li>
+                <li><a href="/">@lang($_t::ROUTE_MAIN)</a></li>
+                <li class="active">@lang($_t::ROUTE_OUR_WORK)</li>
             </ul>
         </div>
     </section>
