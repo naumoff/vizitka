@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ruleset name="Coder Base PHPMD Ruleset"
+         xmlns="http://pmd.sf.net/ruleset/1.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd"
+         xsi:noNamespaceSchemaLocation="http://pmd.sf.net/ruleset_xml_schema.xsd">
+    <description>
+        Custom ruleset that uses most of the standard rulesets and overwrites some default values.
+    </description>
+    <!-- Import default rulesets //-->
+    <rule ref="rulesets/unusedcode.xml" />
+    <!-- <rule ref="rulesets/design.xml" /> //-->
+
+    <!-- Import naming ruleset. Set LongVariable threshold to 40 and add exceptions for ShortVariable //-->
+    <rule ref="rulesets/naming.xml/ConstructorWithNameAsEnclosingClass" />
+    <rule ref="rulesets/naming.xml/ConstantNamingConventions" />
+    <rule ref="rulesets/naming.xml/BooleanGetMethodName" />
+    <rule ref="rulesets/naming.xml/LongVariable" >
+        <properties>
+            <property name="maximum" value="40" />
+        </properties>
+    </rule>
+    <rule ref="rulesets/naming.xml/ShortVariable">
+        <properties>
+            <property name="exceptions" value="id,db" />
+        </properties>
+    </rule>
+    <rule ref="rulesets/naming.xml/ShortMethodName">
+        <properties>
+            <property name="exceptions" value="gc,up"/>
+        </properties>
+    </rule>
+
+    <!-- Import codesize ruleset Overwrite thresholds for CyclomaticComplexity so it doesn't trigger on 10 //-->
+    <rule ref="rulesets/codesize.xml/ExcessiveMethodLength" />
+    <rule ref="rulesets/codesize.xml/ExcessiveClassLength" />
+    <rule ref="rulesets/codesize.xml/ExcessiveParameterList" />
+    <rule ref="rulesets/codesize.xml/ExcessivePublicCount" />
+    <rule ref="rulesets/codesize.xml/TooManyFields" />
+    <rule ref="rulesets/codesize.xml/TooManyMethods" />
+    <rule ref="rulesets/codesize.xml/TooManyPublicMethods" />
+    <rule ref="rulesets/codesize.xml/ExcessiveClassComplexity" />
+    <rule ref="rulesets/codesize.xml/NPathComplexity" />
+    <rule ref="rulesets/codesize.xml/CyclomaticComplexity">
+        <properties>
+            <property name="reportLevel" value="11" />
+        </properties>
+    </rule>
+</ruleset>

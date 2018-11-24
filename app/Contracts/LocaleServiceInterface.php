@@ -8,7 +8,6 @@
 
 namespace App\Contracts;
 
-
 interface LocaleServiceInterface
 {
     public const AVAILABLE_LOCALES = [
@@ -20,5 +19,4 @@ interface LocaleServiceInterface
     public function setLocale(): void;
 
     public function getLocale(): string;
-
 }
