@@ -36,7 +36,7 @@
                         </ul>
                     </div>
                     <div class="btn-group dropleft">
-                        <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-sm dropdown-toggle lang-switch" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             {{strtoupper(App::getLocale())}}
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2" style="min-width: 0; padding: 0 0 0 0;">
@@ -64,7 +64,7 @@
                     <!-- RD Navbar Nav -->
                     <div class="rd-navbar-nav-wrap">
                         <div class="rd-navbar-main-item">
-                            <a class="button button-xs button-primary" href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang($_t::BUTTON_QUOTE)</a>
+                            <a class="button button-xs button-primary button-quote" href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang($_t::BUTTON_QUOTE)</a>
                         </div>
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">

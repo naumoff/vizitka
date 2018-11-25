@@ -14,9 +14,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        dump(\App::getLocale());
-        view()->composer(['layouts.app', 'controllers.front.*'], function($view){
-            $view->with('_t', new TransKeyService());
+        view()->composer(['layouts.app', 'controllers.front.*'], function ($view) {
+            $view->with('_t', app(TransKeyService::class));
         });
     }
 
