@@ -41,6 +41,8 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapAdminRoutes();
 
+        $this->mapCMSRoutes();
+
         $this->mapWebRoutes();
     }
 
@@ -51,7 +53,17 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::middleware(['web', 'verified'])
             ->namespace($this->namespace.'\Dashboard')
-            ->group(base_path('routes/admin.php'));
+            ->group(base_path('routes/dashbords/admin.php'));
+    }
+
+    /**
+     * Define routes in cms panel.
+     */
+    protected function mapCMSRoutes()
+    {
+        Route::middleware(['web', 'verified'])
+            ->namespace($this->namespace.'\Dashboard')
+            ->group(base_path('routes/dashbords/cms.php'));
     }
 
     /**
