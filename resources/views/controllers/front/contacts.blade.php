@@ -19,7 +19,7 @@
                 <div class="layout-bordered__main text-center">
                     <div class="layout-bordered__main-inner">
                         <h3>@lang($_t::HEAD_GET_IN_TOUCH)</h3>
-                        <p>We are available 24/7 by fax, e-mail or by phone. You can also use our quick contact form to ask a question about our services and projects.</p>
+                        <p>@lang($_t::STRING_CONNECT)</p>
                         <!-- RD Mailform-->
                         <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                             <div class="range range-sm-bottom range-20">
@@ -90,6 +90,7 @@
         </div>
     </section>
     <section>
+        {{--Googl map--}}
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4176226692634!2d30.497112816055733!3d50.4519474794756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce6089c0261f%3A0x5c802a3ee8f66bb7!2sProZorro!5e0!3m2!1sru!2sua!4v1543161188163" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
 @endsection

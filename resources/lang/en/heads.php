@@ -17,6 +17,9 @@ $transKeys = [
     TransKeyService::HEAD_PHONE => 'Phone',
     TransKeyService::HEAD_EMAIL => 'E-Mail',
     TransKeyService::HEAD_ADDRESS => 'Address',
+    TransKeyService::HEAD_DEVELOPMENT => 'Development',
+    TransKeyService::HEAD_SECURITY => 'Security',
+    TransKeyService::HEAD_INTEGRATION => 'Integrations',
 ];
 
 /** @var TransKeyService $service */

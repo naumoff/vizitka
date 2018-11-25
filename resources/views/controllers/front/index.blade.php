@@ -58,15 +58,15 @@
         <div class="section-layout-aside">
             <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-1-538x200.jpg" alt="" width="538" height="200"/>
                     <div class="thumb-modern__caption">
-                        <p class="thumb-modern__title">Strategy</p>
+                        <p class="thumb-modern__title">@lang($_t::HEAD_DEVELOPMENT)</p>
                     </div></a></div>
             <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-2-498x195.jpg" alt="" width="498" height="195"/>
                     <div class="thumb-modern__caption">
-                        <p class="thumb-modern__title">Creativity</p>
+                        <p class="thumb-modern__title">@lang($_t::HEAD_SECURITY)</p>
                     </div></a></div>
             <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-3-460x195.jpg" alt="" width="460" height="195"/>
                     <div class="thumb-modern__caption">
-                        <p class="thumb-modern__title">Innovation</p>
+                        <p class="thumb-modern__title">@lang($_t::HEAD_INTEGRATION)</p>
                     </div></a></div>
         </div>
     </section>

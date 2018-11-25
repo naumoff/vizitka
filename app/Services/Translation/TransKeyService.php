@@ -36,6 +36,9 @@ final class TransKeyService implements TransKeyServiceInterface
     public const HEAD_PHONE = 'heads.phone';
     public const HEAD_EMAIL = 'heads.email';
     public const HEAD_ADDRESS = 'heads.address';
+    public const HEAD_DEVELOPMENT = 'heads.development';
+    public const HEAD_SECURITY = 'heads.security';
+    public const HEAD_INTEGRATION = 'heads.integration';
     #endregion
 
     #region CONSTANTS BUTTONS
@@ -50,6 +53,10 @@ final class TransKeyService implements TransKeyServiceInterface
     public const PLACEHOLDER_MESSAGE = 'placeholders.message';
     public const PLACEHOLDER_EMAIL = 'placeholders.email';
     public const PLACEHOLDER_ENTER_EMAIL = 'placeholders.enter-email';
+    #endregion
+
+    #region CONSTANTS STRINGS
+    public const STRING_CONNECT = 'strings.connect';
     #endregion
 
     #region MAIN METHODS
