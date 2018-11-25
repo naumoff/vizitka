@@ -1,11 +1,14 @@
 <?php
 
+use App\User;
+use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 class CreateUsersTable extends Migration
 {
+    #region MAIN METHODS
     /**
      * Run the migrations.
      *
@@ -20,8 +23,11 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
+            $table->dateTime('last_login')->nullable();
+            $table->dateTime('last_logout')->nullable();
             $table->timestamps();
         });
+        $this->addAdminUser();
     }
 
     /**
@@ -33,4 +39,24 @@ class CreateUsersTable extends Migration
     {
         Schema::dropIfExists('users');
     }
+    #endregion
+
+    #region SERVICE METHODS
+    private function addAdminUser()
+    {
+        /** @var integer $userId */
+        $userId = DB::table('users')->insertGetId([
+            'name' => env('ADMIN_NAME'),
+            'email' => env('ADMIN_MAIL'),
+            'password' => bcrypt(env('ADMIN_PASSWORD')),
+            'created_at'=>\Carbon\Carbon::now(),
+            'updated_at'=>\Carbon\Carbon::now(),
+        ]);
+
+        /** @var User $user */
+        $user = User::find($userId);
+
+        event(new Registered($user));
+    }
+    #endregion
 }
