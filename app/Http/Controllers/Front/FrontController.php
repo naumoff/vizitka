@@ -50,6 +50,7 @@ class FrontController extends Controller
 
     public function contacts()
     {
+
         return view('controllers.front.contacts');
     }
     #endregion

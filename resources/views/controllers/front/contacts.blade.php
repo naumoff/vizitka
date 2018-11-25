@@ -89,17 +89,7 @@
             </div>
         </div>
     </section>
-
-    <!-- RD Google Map-->
-    <section class="section">
-        <div class="google-map-container" data-zoom="6" data-center="Prague, Czech Republic">
-            <div class="google-map"></div>
-            <ul class="google-map-markers">
-                <li data-location="Prague, Czech Republic" data-description="Prague, Czech Republic" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png"></li>
-                <li data-location="Oxford, UK" data-description="Oxford, UK" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png"></li>
-                <li data-location="Warsaw, Poland" data-description="Warsaw, Poland" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png"></li>
-                <li data-location="Kyiv, Ukraine" data-description="Kyiv, Ukraine" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png"></li>
-            </ul>
-        </div>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4176226692634!2d30.497112816055733!3d50.4519474794756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce6089c0261f%3A0x5c802a3ee8f66bb7!2sProZorro!5e0!3m2!1sru!2sua!4v1543161188163" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
 @endsection
