@@ -7,29 +7,31 @@
                 <div class="rd-navbar-aside rd-navbar-content">
                     <div class="rd-navbar-aside__item">
                         <ul class="rd-navbar-items-list">
-                            <li>
-                                <div class="unit unit-spacing-xxs unit-horizontal">
-                                    <div class="unit__left"><span class="icon icon-sm icon-primary fl-bigmug-line-trophy55"></span></div>
-                                    <div class="unit__body">
-                                        <p>Number #1 Supplier in Europe</p>
+                            @if (Route::has('login'))
+                                <li>
+                                    <div class="unit unit-spacing-xxs unit-horizontal">
+                                        <div class="unit__left"><span class="icon icon-sm icon-primary fl-bigmug-line-user144"></span></div>
+                                        <div class="unit__body">
+                                            @auth
+                                                <a href="{{ url('/home') }}">@lang($_t::LINK_NAME_DASHBOARD)</a>
+                                            @else
+                                                <a href="{{ route('login') }}">@lang($_t::LINK_NAME_LOGIN)</a>
+
+                                                @if (Route::has('register'))
+                                                    <a href="{{ route('register') }}">@lang($_t::LINK_NAME_REGISTRATION)</a>
+                                                @endif
+                                            @endauth
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="unit unit-spacing-xxs unit-horizontal">
-                                    <div class="unit__left"><span class="icon icon-sm icon-primary fl-bigmug-line-circular220"></span></div>
-                                    <div class="unit__body">
-                                        <p>Certified ISO 9001:2008</p>
-                                    </div>
-                                </div>
-                            </li>
+                                </li>
+                            @endif
                         </ul>
                     </div>
                     <div class="rd-navbar-aside__item">
                         <ul class="rd-navbar-items-list">
                             <li>
                                 <div class="unit unit-spacing-xxs unit-horizontal">
-                                    <div class="unit__left"><span class="text-primary">Phone:</span></div>
+                                    <div class="unit__left"><span class="text-primary fl-bigmug-line-cellular9"></span></div>
                                     <div class="unit__body"><a href="callto:#">+1 (409) 987–5874</a></div>
                                 </div>
                             </li>

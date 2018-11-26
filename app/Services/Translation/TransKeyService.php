@@ -59,6 +59,12 @@ final class TransKeyService implements TransKeyServiceInterface
     public const STRING_CONNECT = 'strings.connect';
     #endregion
 
+    #region CONSTANTS LINK NAMES
+    public const LINK_NAME_LOGIN = 'link_names.login';
+    public const LINK_NAME_REGISTRATION = 'link_names.register';
+    public const LINK_NAME_DASHBOARD = 'link_names.dashboard';
+    #endregion
+
     #region MAIN METHODS
     /**
      * @param array $transKeyArray
