@@ -38,7 +38,7 @@ final class LocaleService implements LocaleServiceInterface
         $this->fallBackLocale = config('app.fallback_locale', 'en');
     }
 
-    public function setLocale():void
+    public function setLocale(): void
     {
         $this->setLocaleIfMissing();
         App::setLocale($this->locale);
@@ -68,7 +68,7 @@ final class LocaleService implements LocaleServiceInterface
     /**
      * setting default locale, if sth wrong
      */
-    private function setLocaleIfMissing():void
+    private function setLocaleIfMissing(): void
     {
         if ($this->locale === null || !in_array($this->locale, LocaleServiceInterface::AVAILABLE_LOCALES)) {
             $this->setLocaleInCookie();
