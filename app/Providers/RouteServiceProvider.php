@@ -53,7 +53,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::middleware(['web', 'verified'])
             ->namespace($this->namespace.'\Dashboard')
-            ->group(base_path('routes/dashbords/admin.php'));
+            ->group(base_path('routes/dashboards/admin.php'));
     }
 
     /**
@@ -63,7 +63,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::middleware(['web', 'verified'])
             ->namespace($this->namespace.'\Dashboard')
-            ->group(base_path('routes/dashbords/cms.php'));
+            ->group(base_path('routes/dashboards/cms.php'));
     }
 
     /**
