@@ -1,6 +1,7 @@
 <?php
 
 use App\Model\User;
+use Carbon\Carbon;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
@@ -43,20 +44,20 @@ class CreateUsersTable extends Migration
     #endregion
 
     #region SERVICE METHODS
-    private function addAdminUser()
+    private function addAdminUser(): void
     {
-        /** @var integer $userId */
-        $userId = DB::table('users')->insertGetId([
+        DB::table('users')->insert([
+            'id' => env('ADMIN_ID', 1),
             'name' => env('ADMIN_NAME'),
             'email' => env('ADMIN_MAIL'),
             'confirmed' => true,
             'password' => bcrypt(env('ADMIN_PASSWORD')),
-            'created_at'=>\Carbon\Carbon::now(),
-            'updated_at'=>\Carbon\Carbon::now(),
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
         ]);
 
         /** @var User $user */
-        $user = User::find($userId);
+        $user = User::find(env('ADMIN_ID', 1));
 
         event(new Registered($user));
     }
