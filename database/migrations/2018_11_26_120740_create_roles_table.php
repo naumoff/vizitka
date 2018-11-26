@@ -6,6 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateRolesTable extends Migration
 {
+    #region MAIN METHODS
     /**
      * Run the migrations.
      *
@@ -15,8 +16,10 @@ class CreateRolesTable extends Migration
     {
         Schema::create('roles', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('roles', '60');
             $table->timestamps();
         });
+        $this->addRoles();
     }
 
     /**
@@ -28,4 +31,12 @@ class CreateRolesTable extends Migration
     {
         Schema::dropIfExists('roles');
     }
+    #endregion
+
+    #region SERVICE METHODS
+    private function addRoles()
+    {
+
+    }
+    #endregion
 }

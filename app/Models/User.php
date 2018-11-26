@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Model;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -10,6 +10,7 @@ class User extends Authenticatable implements MustVerifyEmail
 {
     use Notifiable;
 
+    #region PROPERTIES
     /**
      * The attributes that are mass assignable.
      *
@@ -27,4 +28,14 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $hidden = [
         'password', 'remember_token',
     ];
+    #endregion
+
+    #region MAIN METHODS
+    #endregion
+
+    #region SCOPE METHODS
+    #endregion
+
+    #region RELATION METHODS
+    #endregion
 }
