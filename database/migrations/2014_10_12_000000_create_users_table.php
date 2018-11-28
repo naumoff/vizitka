@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->boolean('confirmed')->default(false);
+            $table->boolean('approved')->default(false);
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
@@ -50,7 +50,7 @@ class CreateUsersTable extends Migration
             'id' => env('ADMIN_ID', 1),
             'name' => env('ADMIN_NAME'),
             'email' => env('ADMIN_MAIL'),
-            'confirmed' => true,
+            'approved' => true,
             'password' => bcrypt(env('ADMIN_PASSWORD')),
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),

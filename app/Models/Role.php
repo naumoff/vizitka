@@ -2,6 +2,7 @@
 
 namespace App\Model;
 
+use App\Models\UserRole;
 use Illuminate\Database\Eloquent\Model;
 
 class Role extends Model
@@ -17,7 +18,7 @@ class Role extends Model
 
     #region CLASS PROPERTIES
     protected $table = 'roles';
-    protected $fillable = [];
+    protected $guarded = [];
     #endregion
 
     #region MAIN METHODS
@@ -27,5 +28,13 @@ class Role extends Model
     #endregion
 
     #region RELATION METHODS
+    public function users()
+    {
+        return $this->belongsToMany(User::class)->using(UserRole::class)
+            ->withPivot([
+                'created_by',
+                'updated_by'
+            ]);
+    }
     #endregion
 }

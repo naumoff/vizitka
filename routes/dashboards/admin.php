@@ -6,4 +6,13 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-Route::get('/home', 'AdminController@index')->name('home');
+use App\Model\Role;
+
+Route::group(
+    [
+        'middleware' => 'role:'. Role::ADMIN .','. Role::CONTENT_MANAGER
+    ],
+    function () {
+        Route::get('/admin', 'AdminController@index')->name('admin');
+    }
+);
