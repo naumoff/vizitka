@@ -52,6 +52,20 @@ class User extends Authenticatable implements MustVerifyEmail
     #endregion
 
     #region MAIN METHODS
+    public function isAdmin()
+    {
+        return count($this->roles()->where('roles.id', '=', Role::ADMIN)->get()) == 1;
+    }
+
+    public function isContentManager()
+    {
+        return count($this->roles()->where('roles.id', '=', Role::CONTENT_MANAGER)->get()) == 1;
+    }
+
+    public function isContentEditor()
+    {
+        return count($this->roles()->where('roles.id', '=', Role::CONTENT_EDITOR)->get()) == 1;
+    }
     #endregion
 
     #region SCOPE METHODS

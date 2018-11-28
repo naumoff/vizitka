@@ -10,7 +10,7 @@ use App\Model\Role;
 
 Route::group(
     [
-        'middleware' => 'role:'. Role::ADMIN .','. Role::CONTENT_MANAGER
+        'middleware' => ['role:' . Role::ADMIN, 'approved'],
     ],
     function () {
         Route::get('/admin', 'AdminController@index')->name('admin');

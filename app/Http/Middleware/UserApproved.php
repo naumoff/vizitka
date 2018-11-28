@@ -2,9 +2,11 @@
 
 namespace App\Http\Middleware;
 
+use Auth;
 use Closure;
+use Illuminate\Support\Facades\Redirect;
 
-class CheckRole
+class UserApproved
 {
     /**
      * Handle an incoming request.
@@ -15,14 +17,12 @@ class CheckRole
      */
     public function handle($request, Closure $next)
     {
-        $permittedRoles = array_slice(func_get_args(), 2);
-        $userRoles = \Auth::user()->roles->pluck('id')->toArray();
-        $passedRoles = array_intersect($permittedRoles, $userRoles);
-
-        if (count($passedRoles) > 0) {
+        if (Auth::user()->approved) {
             return $next($request);
         } else {
-            return redirect('/');
+            return $request->expectsJson()
+                ? abort(403, 'Administrator has to approve your profile first.')
+                : Redirect::route('confirmation-stand-by');
         }
     }
 }
