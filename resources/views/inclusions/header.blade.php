@@ -13,7 +13,7 @@
                                         <div class="unit__left"><span class="icon icon-sm icon-primary fl-bigmug-line-user144"></span></div>
                                         <div class="unit__body">
                                             @auth
-                                                <a href="{{ url('/home') }}">@lang($_t::LINK_NAME_DASHBOARD)</a>
+                                                <a href="{{ route('panel') }}">@lang($_t::LINK_NAME_DASHBOARD)</a>
                                             @else
                                                 <a href="{{ route('login') }}">@lang($_t::LINK_NAME_LOGIN)</a>
 

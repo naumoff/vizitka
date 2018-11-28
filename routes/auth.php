@@ -3,4 +3,4 @@
 
 Auth::routes(['verify' => true]);
 
-Route::get('/home', 'Dashboard\PanelController@index')->name('home')->middleware('auth');
+Route::get('/panel', 'Dashboard\PanelController@index')->name('panel')->middleware(['auth', 'verified']);
