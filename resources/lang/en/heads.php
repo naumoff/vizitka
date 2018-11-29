@@ -6,23 +6,16 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-use App\Services\Translation\TransKeyService;
-
-$transKeys = [
-    TransKeyService::HEAD_MENU => 'Menu',
-    TransKeyService::HEAD_SUBSCRIBE => 'Subscribe Now',
-    TransKeyService::HEAD_MAIN_OFFICE => 'Main Office',
-    TransKeyService::HEAD_GET_IN_TOUCH => 'Get in Touch',
-    TransKeyService::HEAD_GET_SOCIAL => 'Get social',
-    TransKeyService::HEAD_PHONE => 'Phone',
-    TransKeyService::HEAD_EMAIL => 'E-Mail',
-    TransKeyService::HEAD_ADDRESS => 'Address',
-    TransKeyService::HEAD_DEVELOPMENT => 'Development',
-    TransKeyService::HEAD_SECURITY => 'Security',
-    TransKeyService::HEAD_INTEGRATION => 'Integrations',
+return [
+    'menu' => 'Menu',
+    'subscribe' => 'Subscribe Now',
+    'main-office' => 'Main Office',
+    'get-in-touch' => 'Get in Touch',
+    'get-social' => 'Get social',
+    'phone' => 'Phone',
+    'email' => 'E-Mail',
+    'address' => 'Address',
+    'development' => 'Development',
+    'security' => 'Security',
+    'integration' => 'Integrations',
 ];
-
-/** @var TransKeyService $service */
-$service = app(TransKeyService::class);
-
-return $service->getModifiedArray($transKeys);

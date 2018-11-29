@@ -4,10 +4,10 @@
     <!-- Breadcrumbs-->
     <section class="breadcrumbs-custom bg-image" style="background-image: url(/images/bg-image-9.jpg);">
         <div class="shell">
-            <h2 class="breadcrumbs-custom__title">@lang($_t::ROUTE_OUR_WORK)</h2>
+            <h2 class="breadcrumbs-custom__title">@lang('routes.our-work')</h2>
             <ul class="breadcrumbs-custom__path">
-                <li><a href="/">@lang($_t::ROUTE_MAIN)</a></li>
-                <li class="active">@lang($_t::ROUTE_OUR_WORK)</li>
+                <li><a href="{{route('main', ['locale'=>App::getLocale()])}}">@lang('routes.main')</a></li>
+                <li class="active">@lang('routes.our-work')</li>
             </ul>
         </div>
     </section>

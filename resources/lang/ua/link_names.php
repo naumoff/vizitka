@@ -6,15 +6,8 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-use App\Services\Translation\TransKeyService;
-
-$transKeys = [
-    TransKeyService::LINK_NAME_LOGIN => 'Логін',
-    TransKeyService::LINK_NAME_REGISTRATION => 'Реєстрація',
-    TransKeyService::LINK_NAME_DASHBOARD => 'Кабінет',
+return [
+    'login' => 'Логін',
+    'register' => 'Реєстрація',
+    'dashboard' => 'Кабінет',
 ];
-
-/** @var TransKeyService $service */
-$service = app(TransKeyService::class);
-
-return $service->getModifiedArray($transKeys);

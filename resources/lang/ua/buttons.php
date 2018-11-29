@@ -6,15 +6,8 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-use App\Services\Translation\TransKeyService;
-
-$transKeys = [
-    TransKeyService::BUTTON_QUOTE => 'Отримати пропозицію',
-    TransKeyService::BUTTON_SEND_MESSAGE => 'Надіслати повідомлення',
-    TransKeyService::BUTTON_SEND => 'Надіслати ',
+return [
+    'get-quote' => 'Отримати пропозицію',
+    'send-message' => 'Надіслати повідомлення',
+    'send' => 'Надіслати ',
 ];
-
-/** @var TransKeyService $service */
-$service = app(TransKeyService::class);
-
-return $service->getModifiedArray($transKeys);

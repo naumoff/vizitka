@@ -6,17 +6,10 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-use App\Services\Translation\TransKeyService;
-
-$transKeys = [
-    TransKeyService::PLACEHOLDER_NAME => 'Ваше ім\'я',
-    TransKeyService::PLACEHOLDER_PHONE => 'Телефон',
-    TransKeyService::PLACEHOLDER_MESSAGE => 'Ваше повідомлення',
-    TransKeyService::PLACEHOLDER_EMAIL => 'Ваша електронна пошта',
-    TransKeyService::PLACEHOLDER_ENTER_EMAIL => 'Введіть eл. пошту'
+return [
+    'name' => 'Ваше ім\'я',
+    'phone' => 'Телефон',
+    'message' => 'Ваше повідомлення',
+    'email' => 'Ваша електронна пошта',
+    'enter-email' => 'Введіть eл. пошту'
 ];
-
-/** @var TransKeyService $service */
-$service = app(TransKeyService::class);
-
-return $service->getModifiedArray($transKeys);

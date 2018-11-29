@@ -58,15 +58,15 @@
         <div class="section-layout-aside">
             <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-1-538x200.jpg" alt="" width="538" height="200"/>
                     <div class="thumb-modern__caption">
-                        <p class="thumb-modern__title">@lang($_t::HEAD_DEVELOPMENT)</p>
+                        <p class="thumb-modern__title">@lang('heads.development')</p>
                     </div></a></div>
             <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-2-498x195.jpg" alt="" width="498" height="195"/>
                     <div class="thumb-modern__caption">
-                        <p class="thumb-modern__title">@lang($_t::HEAD_SECURITY)</p>
+                        <p class="thumb-modern__title">@lang('heads.security')</p>
                     </div></a></div>
             <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><img class="thumb-modern__image" src="/images/home-3-460x195.jpg" alt="" width="460" height="195"/>
                     <div class="thumb-modern__caption">
-                        <p class="thumb-modern__title">@lang($_t::HEAD_INTEGRATION)</p>
+                        <p class="thumb-modern__title">@lang('heads.integration')</p>
                     </div></a></div>
         </div>
     </section>
@@ -81,7 +81,7 @@
                             <div class="box-centered box-width-1 box-custom">
                                 <h2><span>Experience</span><span class="object-decorated object-decorated_inline" style="max-width: 125px;"><span class="heading-5">since 2006</span></span></h2>
                                 <p>Our company has been the leading provider of advertising services to American companies since 2006. We pay attention to every aspect of our work.</p>
-                                <div class="group-md group-middle button-group"><a class="button button-darker" href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang($_t::BUTTON_QUOTE)</a>
+                                <div class="group-md group-middle button-group"><a class="button button-darker" href="{{route('contacts', ['locale'=>App::getLocale()])}}">@lang('buttons.get-quote')</a>
                                     <p>or</p><a class="button button-primary" href="#">get a brochure</a>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                     <!-- Section Header-->
                     <div class="section__header">
                         <h2>Our Projects</h2>
-                        <div class="section__header-element"><a class="link link-arrow" href="{{route($_t::ROUTE_OUR_WORK, ['locale'=>App::getLocale()])}}"><span>See All Projects</span></a></div>
+                        <div class="section__header-element"><a class="link link-arrow" href="{{route('our-work', ['locale'=>App::getLocale()])}}"><span>See All Projects</span></a></div>
                     </div>
                 </div>
             </div>
@@ -299,7 +299,7 @@
                     <!-- Section Header-->
                     <div class="section__header">
                         <h2>Clients</h2>
-                        <div class="section__header-element"><a class="link link-arrow" href="{{route($_t::ROUTE_CONTACTS, ['locale' => App::getLocale()])}}"><span>@lang($_t::BUTTON_QUOTE)</span></a></div>
+                        <div class="section__header-element"><a class="link link-arrow" href="{{route('contacts', ['locale' => App::getLocale()])}}"><span>@lang('buttons.get-quote')</span></a></div>
                     </div>
                 </div>
             </div>

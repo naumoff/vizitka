@@ -3,7 +3,7 @@
         <div class="shell shell-fluid shell-condensed">
             <div class="range range-xs-center range_xl-ten range-50 footer-corporate__range">
                 <div class="cell-xs-10 cell-sm-6 cell-md-4 cell-lg-4 cell-xl-2 footer-corporate__column">
-                    <h4 class="heading-bordered">@lang($_t::HEAD_MAIN_OFFICE)</h4>
+                    <h4 class="heading-bordered">@lang('heads.main-office')</h4>
                     <ul class="list-md">
                         <li>
                             <p class="address">6036 Richmond hwy., Alexandria, VA, 2230</p>
@@ -41,15 +41,15 @@
                     </ul>
                 </div>
                 <div class="cell-xs-10 cell-sm-6 cell-md-3 cell-lg-3 cell-xl-2 footer-corporate__column">
-                    <h4 class="heading-bordered">@lang($_t::HEAD_SUBSCRIBE)</h4>
+                    <h4 class="heading-bordered">@lang('heads.subscribe')</h4>
                     <p>Get the latest updates and offers</p>
                     <!-- RD Mailform-->
                     <form class="rd-mailform rd-mailform_sm rd-mailform_centered box-width-2" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
                         <div class="form-wrap">
                             <input class="form-input" id="subscribe-email" type="email" name="email" data-constraints="@Email @Required">
-                            <label class="form-label" for="subscribe-email">@lang($_t::PLACEHOLDER_ENTER_EMAIL)</label>
+                            <label class="form-label" for="subscribe-email">@lang('placeholders.enter-email')</label>
                         </div>
-                        <button class="button button-sm button-block button-secondary" type="submit">@lang($_t::BUTTON_SEND)</button>
+                        <button class="button button-sm button-block button-secondary" type="submit">@lang('buttons.send')</button>
                     </form>
                 </div>
                 {{--<div class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3 footer-corporate__column">--}}
@@ -70,13 +70,13 @@
                     {{--</ul>--}}
                 {{--</div>--}}
                 <div class="cell-xs-4 cell-sm-6 cell-md-2 cell-lg-2 cell-xl-1 footer-corporate__column">
-                    <h4 class="heading-bordered">@lang($_t::HEAD_MENU)</h4>
+                    <h4 class="heading-bordered">@lang('heads.menu')</h4>
                     <ul class="list-xxs list_darker">
-                        <li><a href="{{route($_t::ROUTE_MAIN, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_MAIN)</a></li>
-                        <li><a href="{{route($_t::ROUTE_ABOUT_US, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_ABOUT_US)</a></li>
-                        <li><a href="{{route($_t::ROUTE_SERVICES, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_SERVICES)</a></li>
-                        <li><a href="{{route($_t::ROUTE_OUR_WORK, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_OUR_WORK)</a></li>
-                        <li><a href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_CONTACTS)</a></li>
+                        <li><a href="{{route('main', ['locale'=>App::getLocale()])}}">@lang('routes.main')</a></li>
+                        <li><a href="{{route('about-us', ['locale'=>App::getLocale()])}}">@lang('routes.about-us')</a></li>
+                        <li><a href="{{route('services', ['locale'=>App::getLocale()])}}">@lang('routes.services')</a></li>
+                        <li><a href="{{route('our-work', ['locale'=>App::getLocale()])}}">@lang('routes.our-work')</a></li>
+                        <li><a href="{{route('contacts', ['locale'=>App::getLocale()])}}">@lang('routes.contacts')</a></li>
                     </ul>
                 </div>
             </div>

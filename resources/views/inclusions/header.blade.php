@@ -13,12 +13,12 @@
                                         <div class="unit__left"><span class="icon icon-sm icon-primary fl-bigmug-line-user144"></span></div>
                                         <div class="unit__body">
                                             @auth
-                                                <a href="{{ route('panel') }}">@lang($_t::LINK_NAME_DASHBOARD)</a>
+                                                <a href="{{ route('panel') }}">@lang('link_names.dashboard')</a>
                                             @else
-                                                <a href="{{ route('login') }}">@lang($_t::LINK_NAME_LOGIN)</a>
+                                                <a href="{{ route('login') }}">@lang('link_names.login')</a>
 
                                                 @if (Route::has('register'))
-                                                    <a href="{{ route('register') }}">@lang($_t::LINK_NAME_REGISTRATION)</a>
+                                                    <a href="{{ route('register') }}">@lang('link_names.register')</a>
                                                 @endif
                                             @endauth
                                         </div>
@@ -66,19 +66,19 @@
                     <!-- RD Navbar Nav -->
                     <div class="rd-navbar-nav-wrap">
                         <div class="rd-navbar-main-item">
-                            <a class="button button-xs button-primary button-quote" href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang($_t::BUTTON_QUOTE)</a>
+                            <a class="button button-xs button-primary button-quote" href="{{route('contacts', ['locale'=>App::getLocale()])}}">@lang('buttons.get-quote')</a>
                         </div>
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
-                            <li class="active"><a href="{{route($_t::ROUTE_MAIN, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_MAIN)</a>
+                            <li class="active"><a href="{{route('main', ['locale'=>App::getLocale()])}}">@lang('routes.main')</a>
                             </li>
-                            <li><a href="{{route($_t::ROUTE_ABOUT_US, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_ABOUT_US)</a>
+                            <li><a href="{{route('about-us', ['locale'=>App::getLocale()])}}">@lang('routes.about-us')</a>
                             </li>
-                            <li><a href="{{route($_t::ROUTE_SERVICES, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_SERVICES)</a>
+                            <li><a href="{{route('services', ['locale'=>App::getLocale()])}}">@lang('routes.services')</a>
                             </li>
-                            <li><a href="{{route($_t::ROUTE_OUR_WORK, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_OUR_WORK)</a>
+                            <li><a href="{{route('our-work', ['locale'=>App::getLocale()])}}">@lang('routes.our-work')</a>
                             </li>
-                            <li><a href="{{route($_t::ROUTE_CONTACTS, ['locale'=>App::getLocale()])}}">@lang($_t::ROUTE_CONTACTS)</a>
+                            <li><a href="{{route('contacts', ['locale'=>App::getLocale()])}}">@lang('routes.contacts')</a>
                             </li>
                         </ul>
                     </div>

@@ -6,15 +6,8 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-use App\Services\Translation\TransKeyService;
-
-$transKeys = [
-    TransKeyService::BUTTON_QUOTE => 'Get a quote',
-    TransKeyService::BUTTON_SEND_MESSAGE => 'Send message',
-    TransKeyService::BUTTON_SEND => 'Send',
+return [
+    'get-quote' => 'Get a quote',
+    'send-message' => 'Send message',
+    'send' => 'Send',
 ];
-
-/** @var TransKeyService $service */
-$service = app(TransKeyService::class);
-
-return $service->getModifiedArray($transKeys);

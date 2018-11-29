@@ -6,17 +6,10 @@
  * E-mail: andrey.naumoff@gmail.com
  */
 
-use App\Services\Translation\TransKeyService;
-
-$transKeys = [
-    TransKeyService::ROUTE_MAIN => 'Main',
-    TransKeyService::ROUTE_ABOUT_US => 'About Us',
-    TransKeyService::ROUTE_SERVICES => 'Services',
-    TransKeyService::ROUTE_OUR_WORK => 'Our work',
-    TransKeyService::ROUTE_CONTACTS => 'Contacts',
+return [
+    'main' => 'Main',
+    'about-us' => 'About Us',
+    'services' => 'Services',
+    'our-work' => 'Our work',
+    'contacts' => 'Contacts',
 ];
-
-/** @var TransKeyService $service */
-$service = app(TransKeyService::class);
-
-return $service->getModifiedArray($transKeys);
