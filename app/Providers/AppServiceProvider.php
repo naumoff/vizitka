@@ -14,9 +14,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->composer(['layouts.app', 'controllers.front.*'], function ($view) {
-            $view->with('_t', app(TransKeyService::class));
-        });
     }
 
     /**
