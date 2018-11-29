@@ -11,10 +11,12 @@
                             <div class="shell">
                                 <div class="range">
                                     <div class="cell-sm-11 cell-md-10 cell-lg-9">
-                                        <h1 data-caption-animate="fadeInUpSmall"><span class="custom-line">Advertising</span> <span>in Print</span>
-                                        </h1>
+                                        <h2 data-caption-animate="fadeInUpSmall">@lang('heads.statement-1')
+                                        </h2>
                                         <div class="object-decorated">
-                                            <h4 data-caption-animate="fadeInRightSmall" data-caption-delay="550">We'll help you get your message to your clients by placing advertising in the best print magazines and newspapers in the country!</h4>
+                                            <h4 data-caption-animate="fadeInRightSmall" data-caption-delay="550">
+                                                @lang('strings.slider-description-1')
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
@@ -26,10 +28,12 @@
                             <div class="shell">
                                 <div class="range">
                                     <div class="cell-sm-11 cell-md-10 cell-lg-9">
-                                        <h1 data-caption-animate="fadeInUpSmall"><span class="custom-line">Online</span> <span>Advertising</span>
-                                        </h1>
+                                        <h2 data-caption-animate="fadeInUpSmall">@lang('heads.statement-2')
+                                        </h2>
                                         <div class="object-decorated">
-                                            <h4 data-caption-animate="fadeInRightSmall" data-caption-delay="550">Our team is ready to use all its experience to help you promote your products and services online to gain more potential customers than ever.</h4>
+                                            <h4 data-caption-animate="fadeInRightSmall" data-caption-delay="550">
+                                                @lang('strings.slider-description-2')
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
@@ -41,10 +45,29 @@
                             <div class="shell">
                                 <div class="range">
                                     <div class="cell-sm-11 cell-md-10 cell-lg-9">
-                                        <h1 data-caption-animate="fadeInUpSmall"><span>Full Cycle</span> <span class="custom-line">Production</span>
-                                        </h1>
+                                        <h2 data-caption-animate="fadeInUpSmall">@lang('heads.statement-3')
+                                        </h2>
                                         <div class="object-decorated">
-                                            <h4 data-caption-animate="fadeInRightSmall" data-caption-delay="550">Whatever type of an advertising or promotional campaign you're about to launch, be sure that thanks to our in-depth expertise and the skills that our advertising pros have, it will all be done at one place!</h4>
+                                            <h4 data-caption-animate="fadeInRightSmall" data-caption-delay="550">
+                                                @lang('strings.slider-description-3')
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-slide-bg="images/slider-slide-3-1464x660.jpg">
+                        <div class="swiper-slide-caption">
+                            <div class="shell">
+                                <div class="range">
+                                    <div class="cell-sm-11 cell-md-10 cell-lg-9">
+                                        <h2 data-caption-animate="fadeInUpSmall">@lang('heads.statement-4')
+                                        </h2>
+                                        <div class="object-decorated">
+                                            <h4 data-caption-animate="fadeInRightSmall" data-caption-delay="550">
+                                                @lang('strings.slider-description-4')
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>

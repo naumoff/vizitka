@@ -6,43 +6,40 @@
                     <h4 class="heading-bordered">@lang('heads.main-office')</h4>
                     <ul class="list-md">
                         <li>
-                            <p class="address">6036 Richmond hwy., Alexandria, VA, 2230</p>
+                            <p class="address">@lang('strings.address-street')</p>
+                            <P class="address" style="margin-top:0px">@lang('strings.address-city')</p>
                             <ul class="list-inline-0">
                                 <li>
                                     <dl class="list-terms-inline">
-                                        <dt>Weekdays</dt>
+                                        <dt>@lang('strings.weekdays')</dt>
                                         <dd>8:00–20:00</dd>
                                     </dl>
                                 </li>
                                 <li>
                                     <dl class="list-terms-inline">
-                                        <dt>Weekends</dt>
-                                        <dd>Closed</dd>
+                                        <dt>@lang('strings.weekends')</dt>
+                                        <dd>@lang('strings.closed')</dd>
                                     </dl>
                                 </li>
                             </ul>
                         </li>
                         <li>
                             <dl class="list-terms-inline">
-                                <dt>Sales department</dt>
-                                <dd><a href="mailto:#">info@demolink.org</a></dd>
-                            </dl>
-                            <dl class="list-terms-inline">
-                                <dt>Support</dt>
-                                <dd><a href="mailto:#">infosupport@demolink.org</a></dd>
+                                <dt>@lang('strings.sales-dept')</dt>
+                                <dd><a href="mailto:#">iam@consulting.mk</a></dd>
                             </dl>
                         </li>
                         <li>
                             <dl class="list-terms-inline">
-                                <dt>Phone</dt>
-                                <dd><a href="callto:#">+1 (409) 987–5874</a></dd>
+                                <dt>@lang('strings.phone')</dt>
+                                <dd><a href="callto:#">+38 063 495 49 65</a></dd>
                             </dl>
                         </li>
                     </ul>
                 </div>
                 <div class="cell-xs-10 cell-sm-6 cell-md-3 cell-lg-3 cell-xl-2 footer-corporate__column">
                     <h4 class="heading-bordered">@lang('heads.subscribe')</h4>
-                    <p>Get the latest updates and offers</p>
+                    <p>@lang('strings.get-subscription')</p>
                     <!-- RD Mailform-->
                     <form class="rd-mailform rd-mailform_sm rd-mailform_centered box-width-2" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
                         <div class="form-wrap">

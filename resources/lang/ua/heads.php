@@ -1,10 +1,4 @@
 <?php
-/**
- * User: Andrey Naumoff
- * Date: 23-Nov-18
- * Time: 11:40 PM
- * E-mail: andrey.naumoff@gmail.com
- */
 
 return [
     'menu' => 'Меню',
@@ -18,4 +12,8 @@ return [
     'development' => 'Розробка',
     'security' => 'Безпека',
     'integration' => 'Інтеграція',
+    'statement-1' => '<span class="custom-line">Кращі розробники</span> <span>в отраслi</span>',
+    'statement-2' => '<span class="custom-line">Широкий стек</span> <span>технологий</span>',
+    'statement-3' => '<span class="custom-line">Багатий і різнобічний</span> <span>досвід</span>',
+    'statement-4' => '<span class="custom-line">Відкритий</span> <span>вихідний код</span>',
 ];
