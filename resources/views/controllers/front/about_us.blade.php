@@ -6,7 +6,7 @@
         <div class="shell">
             <h2 class="breadcrumbs-custom__title">@lang($_t::ROUTE_ABOUT_US)</h2>
             <ul class="breadcrumbs-custom__path">
-                <li><a href="/">@lang($_t::ROUTE_MAIN)</a></li>
+                <li><a href="/">@lang($_t::ROUTE_MAI)</a></li>
                 <li class="active">@lang($_t::ROUTE_ABOUT_US)</li>
             </ul>
         </div>
